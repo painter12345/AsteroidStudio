@@ -1,0 +1,213 @@
+{
+ "name": "IceFragment",
+ "seed": 59,
+ "radius": 15000.0,
+ "oblate": {
+  "enabled": true,
+  "mode": "CustomEllipsoid",
+  "a": 1.3,
+  "b": 1.12,
+  "c": 1.0,
+  "primaryRadius": 1.5,
+  "secondaryRadius": 1.2,
+  "energyMode": "Low",
+  "geeASL": 0.0009,
+  "mass": 0.0,
+  "period": 0.0,
+  "order": 25
+ },
+ "shape": {
+  "ocean": false,
+  "land": 0.5,
+  "continents": 0,
+  "warp": 0.4,
+  "coast": 0.5,
+  "islands": 0.0,
+  "size_var": 0.3,
+  "bias": 0.0
+ },
+ "relief": {
+  "high": 800.0,
+  "low": -900.0,
+  "mountains": 0.15,
+  "mountain_size": 1.0,
+  "mountain_area": 0.5,
+  "ranges": 0.0,
+  "hills": 0.4,
+  "hill_size": 1.0,
+  "plains": 0.45,
+  "roughness": 0.35,
+  "shelf": 0.2,
+  "sharpness": 1.0,
+  "canyons": 0.0,
+  "canyon_depth": 400.0,
+  "canyon_width": 2.0
+ },
+ "volcanoes": {
+  "count": 0,
+  "seed": 1,
+  "size_km": 6.0,
+  "height": 600.0,
+  "caldera": 0.5,
+  "size_var": 0.5
+ },
+ "features": [],
+ "plateaus": {
+  "amount": 0.0,
+  "height": 1500.0,
+  "size": 1.0,
+  "edge": 0.35,
+  "flat": 0.8
+ },
+ "water": {
+  "rivers": 0.0,
+  "width": 4.0,
+  "depth": 80.0,
+  "valleys": 0.5,
+  "valley_width": 8.0
+ },
+ "cracks": {
+  "amount": 0.6,
+  "style": "lines",
+  "count": 6,
+  "curvy": 0.4,
+  "width": 0.6,
+  "depth": 250.0,
+  "ridges": 0.5,
+  "cell_size": 250.0,
+  "seed": 3
+ },
+ "craters": {
+  "count": 400,
+  "seed": 21,
+  "min_km": 0.3,
+  "max_km": 6.0,
+  "size_mix": 1.8,
+  "depth": 1.0,
+  "fresh": 0.45,
+  "ejecta": 0.7,
+  "rays": 0.5
+ },
+ "colors": {
+  "stops": [
+   [
+    -900.0,
+    [
+     168,
+     172,
+     176
+    ]
+   ],
+   [
+    0.0,
+    [
+     196,
+     200,
+     204
+    ]
+   ],
+   [
+    800.0,
+    [
+     214,
+     218,
+     222
+    ]
+   ]
+  ],
+  "jitter": 120.0,
+  "patches": 0.4,
+  "patch_size": 1.0,
+  "patch_color": [
+   176,
+   168,
+   160
+  ],
+  "rock": [
+   150,
+   148,
+   146
+  ],
+  "rock_slope": [
+   24.0,
+   40.0
+  ],
+  "rock_amount": 0.6,
+  "ice": [
+   236,
+   240,
+   246
+  ],
+  "cap_north": 90.0,
+  "cap_south": 90.0,
+  "cap_ragged": 0.5,
+  "sea_ice": 1.0,
+  "snow_line": 99000.0,
+  "snow_slope": 28.0,
+  "shallow": [
+   52,
+   118,
+   138
+  ],
+  "deep": [
+   16,
+   36,
+   72
+  ],
+  "water_depth": 600.0,
+  "dry": {
+   "amount": 0.0,
+   "lat": 25.0,
+   "width": 12.0,
+   "color": [
+    178,
+    152,
+    104
+   ]
+  },
+  "cold": {
+   "amount": 0.0,
+   "lat": 55.0,
+   "color": [
+    116,
+    116,
+    96
+   ]
+  },
+  "crater_floor": [
+   70,
+   70,
+   72
+  ],
+  "crater_floor_amount": 0.0,
+  "ejecta_color": null,
+  "volcano_color": [
+   64,
+   56,
+   52
+  ],
+  "volcano_amount": 0.5,
+  "brightness": 0.0,
+  "contrast": 1.0,
+  "saturation": 1.0,
+  "river_color": null,
+  "river_amount": 1.0,
+  "crack_color": [
+   120,
+   110,
+   104
+  ],
+  "crack_amount": 0.7
+ },
+ "normal_strength": 2.0,
+ "files": {
+  "height": "IceFragment_height.dds",
+  "color": "IceFragment_color.dds",
+  "normal": "IceFragment_normal.dds"
+ },
+ "preview": {
+  "tilt": 0,
+  "view_lat": 20,
+  "view_lon": 120
+ }
+}

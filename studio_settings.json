@@ -1,0 +1,18 @@
+{
+ "export_dir": "C:\\Users\\justu\\my star system\\_cloud_preview\\AsteroidStudio\\source\\export",
+ "size": "Same as build",
+ "flip": true,
+ "cfg_path": "",
+ "fmt_height": "DDS L8 (KSP default)",
+ "on_height": false,
+ "fmt_heightfine": "DDS L8 (KSP default)",
+ "on_heightfine": false,
+ "fmt_color": "DDS BC1 / DXT1 (KSP default)",
+ "on_color": false,
+ "fmt_normal": "DDS DXT5nm (KSP default)",
+ "on_normal": false,
+ "fmt_preview": "PNG",
+ "on_preview": true,
+ "fmt_config": "Kopernicus .cfg",
+ "on_config": false
+}
